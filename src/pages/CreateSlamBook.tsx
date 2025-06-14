@@ -178,7 +178,7 @@ const themeOptions = [
 ];
 
 const presetQuestions = [
-  { id: 'preset-1', type: 'text', question: "What's your name?", required: true, category: 'personal' },
+  { id: 'preset-1', type: 'text', question: "Give me a name?", required: true, category: 'personal' },
   { id: 'preset-2', type: 'text', question: "How old are you?", required: false, category: 'personal' },
   { id: 'preset-3', type: 'textarea', question: "What's your favorite memory with me?", required: false, category: 'memories' },
   { id: 'preset-4', type: 'text', question: "Describe me in three words", required: false, category: 'personal' },

@@ -231,14 +231,6 @@ const ViewResponses = () => {
           <div className="flex gap-2 sm:gap-3">
             <Button 
               variant="outline" 
-              onClick={() => navigate(`/s/${slamBook.slug}`)} 
-              className="bg-white/90 hover:bg-white border-purple-200 hover:border-purple-300 rounded-2xl px-4 sm:px-6 shadow-md hover:shadow-lg transition-all duration-200"
-            >
-              <Share2 className="h-4 w-4 mr-0 sm:mr-2" />
-              <span className="hidden sm:inline">Share</span>
-            </Button>
-            <Button 
-              variant="outline" 
               onClick={handleDownloadPDF} 
               className="bg-white/90 hover:bg-white border-purple-200 hover:border-purple-300 rounded-2xl px-4 sm:px-6 shadow-md hover:shadow-lg transition-all duration-200"
             >
