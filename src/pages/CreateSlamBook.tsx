@@ -732,9 +732,9 @@ const CreateSlamBook = () => {
             </Card>
 
             {/* Desktop Create Button */}
-            <div className="hidden lg:block">
+            {/* <div className="hidden lg:block">
               <CreateButton className="w-full py-3 sm:py-4 text-base sm:text-lg" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
